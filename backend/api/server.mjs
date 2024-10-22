@@ -29,3 +29,6 @@ app.use("/api/african", playerRouter);
 
 //npm run start:dev
 //To start both servers
+
+// export the app for vercel serverless functions
+module.exports = app;
